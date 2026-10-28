@@ -4,7 +4,7 @@ A small issue tracking app. Users report issues and discuss them in comments. An
 
 - Live app: `<paste Vercel URL here>`
 - Source:GitHub repo URL: https://github.com/DINU-ROBIN/Issue-Tracker-System.git
-- Requirements doc: 
+- Requirements doc: Issue Tracker System - Business Requirements Document.pdf
 
 ## Demo accounts
 
