@@ -1,0 +1,147 @@
+.comments {
+  margin-top: 20px;
+  padding-top: 18px;
+  border-top: 1px solid #e2e5e9;
+}
+
+.comments-heading {
+  margin: 0 0 16px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #1f2933;
+}
+
+/* Form */
+.comments-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.comments-textarea {
+  width: 100%;
+  padding: 10px 12px;
+  font-family: inherit;
+  font-size: 14px;
+  color: #1f2933;
+  background: #ffffff;
+  border: 1px solid #cbd2d9;
+  border-radius: 6px;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+.comments-textarea:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+.comments-add {
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+  background: #2563eb;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.comments-add:hover:not(:disabled) {
+  background: #1d4ed8;
+}
+
+.comments-add:disabled {
+  background: #93aee8;
+  cursor: not-allowed;
+}
+
+/* List */
+.comments-empty {
+  margin: 0;
+  font-size: 14px;
+  color: #7b8794;
+}
+
+.comments-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.comment {
+  padding: 14px;
+  background: #f9fafb;
+  border: 1px solid #e2e5e9;
+  border-radius: 8px;
+}
+
+.comment-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.comment-author {
+  font-size: 14px;
+  color: #1f2933;
+  overflow-wrap: anywhere;
+}
+
+.comment-date {
+  margin-top: 2px;
+  font-size: 12px;
+  color: #7b8794;
+}
+
+.comment-body {
+  margin: 10px 0 0;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #3e4c59;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.comment-delete {
+  padding: 4px 10px;
+  font-size: 13px;
+  color: #b91c1c;
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.comment-delete:hover {
+  background: #fee2e2;
+}
+
+/* Error */
+.comments-error {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+  padding: 10px 14px;
+  font-size: 14px;
+  color: #991b1b;
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  border-radius: 6px;
+  overflow-wrap: anywhere;
+}
+
+.comments-error-close {
+  padding: 0 4px;
+  font-size: 20px;
+  line-height: 1;
+  color: #991b1b;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
