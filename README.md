@@ -2,7 +2,7 @@
 
 A small issue tracking app. Users report issues and discuss them in comments. An admin assigns issues and moves them through Open, In Progress and Closed. The frontend is React (Vite) and the backend is Supabase. It is hosted on Vercel.
 
-- Live app: `<paste Vercel URL here>`
+- Live app: https://issue-tracker-system-we83.vercel.app/login
 - Source:GitHub repo URL: https://github.com/DINU-ROBIN/Issue-Tracker-System.git
 - Requirements doc: Issue Tracker System - Business Requirements Document.pdf
 
